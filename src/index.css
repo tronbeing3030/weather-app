@@ -1,0 +1,13 @@
+html{
+    color-scheme: light dark;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

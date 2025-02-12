@@ -1,0 +1,154 @@
+body{
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("waves.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header{
+    width:90%;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    width: 50%;
+    max-width: 30%;
+    border: none;
+    background-color: light-dark(#ffffff92,#00000092);
+    padding: .3em .6em;
+    border-bottom: 2px solid white;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    font-size: 1.2rem;
+    border: none;
+    margin: 0 0 0 .5em;
+    padding: .3em 1.5em .4em 1.5em;
+    background: #EB6E4B;
+    border-radius: .2em;
+    font-family: 'Poppins', sans-serif;
+    transition: all .3ms ease-in-out;
+}
+
+button:hover{
+    opacity: .9;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.fact{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.left, .mid{
+    margin-right: 5em;
+}
+
+.fact{
+    align-items: end;
+}
+
+.place{
+    display: flex;
+    align-items: end;
+    justify-content: left;
+}
+
+.place p{
+    margin-bottom: .4em;
+}
+
+.place .city-name{
+    text-transform: uppercase;
+    margin: .2em 0 0 0;
+    font-size: 3rem;
+}
+
+.place .country-name{
+    text-transform: uppercase;
+    margin: .2em .5em .5em .5em;
+    font-size: 1.3rem;
+}
+
+.place img{
+    margin: 0 0 .4em 0;
+}
+
+.forecast{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: light-dark(white, black);
+    background-color: light-dark(black,white);
+    border-radius: 60em 500em 500em 60em;
+}
+
+.forecast .data{
+    padding: 0 1em 0 2em;
+    max-width: 15em;
+}
+
+.forecast .temp{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+}
+
+.forecast .wthr{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    max-width: 90%;
+    line-height: .8;
+}
+
+.forecast img{
+    background: #00AAD9;
+    border-radius: 500em;
+}
+
+.mid, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.mid p, .right p{
+    margin: 0 0 .1em 0;
+    line-height: 1;
+    font-size: 1.5em;
+}
+
+.mid .visibility, .right .visibility{
+    margin-bottom: 1em;
+}
+
+.dt{
+    font-size: 4rem;
+    line-height: 1.1;
+}

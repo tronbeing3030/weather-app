@@ -71,6 +71,9 @@ Click the "Search" button.
 
 The app will display the current weather conditions for the specified city.
 
+![image](https://github.com/user-attachments/assets/1a4d4197-24f7-403e-bd36-c36f4a9a0f4e)
+
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 

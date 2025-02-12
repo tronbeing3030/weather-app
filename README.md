@@ -71,7 +71,7 @@ Click the "Search" button.
 
 The app will display the current weather conditions for the specified city.
 
-![image](https://github.com/user-attachments/assets/1a4d4197-24f7-403e-bd36-c36f4a9a0f4e)
+![image](https://github.com/user-attachments/assets/fe0e8e4b-9605-4ac4-b035-b8522fd616e1)
 
 
 ## License

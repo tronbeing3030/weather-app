@@ -2,21 +2,15 @@
 A simple and intuitive weather application built using React, Axios, and OpenWeatherAPI.
 
 ## Table of Contents
-**Overview**
 
-**Features**
-
-**Technologies Used**
-
-**Installation**
-
-**Usage**
-
-**License**
-
-**Contributing**
-
-**Acknowledgements**
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 The Weather App allows users to check the current weather conditions for any city around the globe. It is designed to be simple and user-friendly.
